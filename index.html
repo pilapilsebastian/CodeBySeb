@@ -1,0 +1,239 @@
+<link rel="stylesheet" href="style.css">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIL Week 16 - Interactive Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="home">
+    <nav>
+        <h2>MIL <span>WEEK 16</span></h2>
+        <div>
+            <a href="#lesson">Lesson</a>
+            <a href="#types">Types</a>
+            <a href="#activities">Activities</a>
+            <a href="#design">Design</a>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <p>MEDIA AND INFORMATION LITERACY</p>
+        <h1>Manipulative Information<br>and Media</h1>
+        <p>Discover how interactive media allows people to participate, choose, respond, and learn.</p>
+        <a class="btn" href="#lesson">Explore the Lesson ↓</a>
+    </div>
+</header>
+
+<main>
+
+<section id="lesson">
+    <p class="tag">01 — INTRODUCTION</p>
+    <h2>What is Interactive Media?</h2>
+    <p>Interactive media refers to media that allows users to participate by clicking, choosing, answering, or controlling content. Unlike passive media, users take action and receive a response from the system.</p>
+
+    <div class="grid two">
+        <article>
+            <h3>Passive Media</h3>
+            <p>Watching a prerecorded video without controlling its content.</p>
+        </article>
+        <article>
+            <h3>Interactive Media</h3>
+            <p>Answering an online quiz, voting in a poll, or choosing a route on a map.</p>
+        </article>
+    </div>
+</section>
+
+<section id="types">
+    <p class="tag">02 — LEARN THE BASICS</p>
+    <h2>Six Types of Interactive Media</h2>
+    <div class="grid three">
+        <article><b>01</b><h3>Poll</h3><p>Collects people's opinions or votes about a particular question or topic.</p></article>
+        <article><b>02</b><h3>Quiz</h3><p>Tests knowledge and understanding through questions and answers.</p></article>
+        <article><b>03</b><h3>Form</h3><p>Collects information, opinions, and responses from users.</p></article>
+        <article><b>04</b><h3>Interactive Map</h3><p>Allows users to explore different places, locations, and routes.</p></article>
+        <article><b>05</b><h3>Simulation</h3><p>Lets users practice making decisions and see possible results.</p></article>
+        <article><b>06</b><h3>Clickable Webpage</h3><p>Allows users to navigate using buttons, links, and menus.</p></article>
+    </div>
+</section>
+
+<section class="dark">
+    <p class="tag">03 — INTERACTION CYCLE</p>
+    <h2>How Does Interaction Work?</h2>
+    <div class="grid four">
+        <article><b>1</b><h3>User Action</h3><p>Clicks, types, chooses, or drags.</p></article>
+        <article><b>2</b><h3>System Response</h3><p>The screen changes or input is recorded.</p></article>
+        <article><b>3</b><h3>Feedback</h3><p>A result or new information appears.</p></article>
+        <article><b>4</b><h3>Next Choice</h3><p>The user continues, revises, or stops.</p></article>
+    </div>
+    <p class="example"><b>Example:</b> Choose an answer → the system checks it → feedback appears → you decide what to review.</p>
+</section>
+
+<section id="activities">
+    <p class="tag">04 — TRY IT YOURSELF</p>
+    <h2>Interactive Activities</h2>
+
+    <article class="activity">
+        <h3>Activity 1: Poll</h3>
+        <p>Which action should come first when you see suspicious online news?</p>
+        <form>
+            <label><input type="radio" name="poll"> Share it immediately</label>
+            <label><input type="radio" name="poll"> Check the source</label>
+            <label><input type="radio" name="poll"> Ignore all news</label>
+            <label><input type="radio" name="poll"> Comment without reading</label>
+        </form>
+        <p class="note">Choose one answer to demonstrate voting. Votes are not automatically counted.</p>
+    </article>
+
+    <article class="activity">
+        <h3>Activity 2: Quiz</h3>
+        <p>Which design principle makes important information stand out?</p>
+        <div class="quiz">
+            <input type="radio" name="quiz" id="q1">
+            <label for="q1">A. Proximity</label>
+
+            <input type="radio" name="quiz" id="q2">
+            <label for="q2">B. Repetition</label>
+
+            <input type="radio" name="quiz" id="q3">
+            <label for="q3">C. Contrast</label>
+
+            <input type="radio" name="quiz" id="q4">
+            <label for="q4">D. Alignment</label>
+
+            <p class="feedback f1">Not quite! Proximity groups related elements together.</p>
+            <p class="feedback f2">Not quite! Repetition maintains consistency.</p>
+            <p class="feedback f3">Correct! Contrast makes important information stand out.</p>
+            <p class="feedback f4">Not quite! Alignment organizes content.</p>
+        </div>
+    </article>
+
+    <article class="activity">
+        <h3>Activity 3: Reflection Form</h3>
+        <form class="reflection" action="#activities" method="get">
+            <label for="name">Your Name</label>
+            <input id="name" type="text" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email" placeholder="Enter your email" required>
+
+            <label for="answer">What did you learn about interactive media?</label>
+            <textarea id="answer" name="answer" rows="4" required></textarea>
+
+            <button type="submit">Submit Reflection</button>
+        </form>
+        <p class="note">This demonstration checks required fields but does not save responses.</p>
+    </article>
+
+    <article class="activity">
+        <h3>Activity 4: Interactive Map</h3>
+        <p>Choose a location in Cabanatuan City.</p>
+        <div class="links">
+            <a href="https://www.google.com/maps/search/?api=1&query=Plaza+Lucero+Cabanatuan" target="_blank">📍 Plaza Lucero</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=SM+City+Cabanatuan" target="_blank">📍 SM City Cabanatuan</a>
+            <a href="https://www.google.com/maps/search/?api=1&query=Freedom+Park+Cabanatuan" target="_blank">📍 Freedom Park</a>
+        </div>
+    </article>
+
+    <article class="activity">
+        <h3>Activity 5: Decision Simulation</h3>
+        <p>You have an examination tomorrow. What will you do?</p>
+        <div class="simulation">
+            <input type="radio" name="decision" id="d1">
+            <label for="d1">📚 Study and prepare early</label>
+            <p class="outcome o1">Good choice! You may feel prepared and have time to review difficult lessons.</p>
+
+            <input type="radio" name="decision" id="d2">
+            <label for="d2">⏰ Study everything the night before</label>
+            <p class="outcome o2">You may feel stressed and have less time to understand the lessons.</p>
+
+            <input type="radio" name="decision" id="d3">
+            <label for="d3">⚠️ Ignore the examination</label>
+            <p class="outcome o3">You may struggle because you did not prepare.</p>
+        </div>
+    </article>
+
+    <article class="activity">
+        <h3>Activity 6: Clickable Webpage</h3>
+        <p>Choose a section to explore.</p>
+        <div class="links">
+            <a href="#types">Six Types</a>
+            <a href="#lesson">Introduction</a>
+            <a href="#design">Design Principles</a>
+            <a href="#home">Back to Top ↑</a>
+        </div>
+    </article>
+</section>
+
+<section id="design">
+    <p class="tag">05 — DESIGN AND EFFECTIVENESS</p>
+    <h2>Characteristics of Good Interactive Media</h2>
+    <div class="grid three">
+        <article><h3>Clear Action</h3><p>Users know what they need to do.</p></article>
+        <article><h3>Purposeful</h3><p>Every activity has a clear goal.</p></article>
+        <article><h3>Feedback</h3><p>The system provides a response or result.</p></article>
+        <article><h3>User Control</h3><p>Users are allowed to make choices.</p></article>
+        <article><h3>Accessibility</h3><p>Everyone has a fair chance to participate.</p></article>
+        <article><h3>Engaging</h3><p>Activities maintain attention and understanding.</p></article>
+    </div>
+
+    <h2 class="subheading">Selection Criteria</h2>
+    <ul class="criteria">
+        <li><b>Relevance:</b> Is it connected to the topic?</li>
+        <li><b>Clarity:</b> Are instructions easy to understand?</li>
+        <li><b>Accuracy:</b> Is the information correct?</li>
+        <li><b>Usability:</b> Is it easy to use?</li>
+        <li><b>Accessibility:</b> Can everyone participate?</li>
+        <li><b>Privacy:</b> Does it protect personal information?</li>
+    </ul>
+
+    <h2 class="subheading">Four Design Principles</h2>
+    <div class="grid four">
+        <article><h3>Contrast</h3><p>Makes important information stand out.</p></article>
+        <article><h3>Alignment</h3><p>Keeps content organized.</p></article>
+        <article><h3>Repetition</h3><p>Maintains consistent design.</p></article>
+        <article><h3>Proximity</h3><p>Places related elements together.</p></article>
+    </div>
+</section>
+
+<section id="webinar">
+    <p class="tag">06 — WEBINAR APPLICATION</p>
+    <h2>Interactive Media in a Webinar</h2>
+    <div class="grid three">
+        <article><h3>Before</h3><p>Use a poll to check prior knowledge.</p></article>
+        <article><h3>During</h3><p>Use a quick quiz or chat prompt to check understanding.</p></article>
+        <article><h3>After</h3><p>Use a reflection form or Q&amp;A to gather thoughts.</p></article>
+    </div>
+
+    <h2 class="subheading">Five Planning Steps</h2>
+    <ol>
+        <li><b>Choose:</b> Pick a suitable interactive tool.</li>
+        <li><b>Write:</b> Create clear instructions and a focused question.</li>
+        <li><b>Check:</b> Review relevance, clarity, usability, accessibility, and privacy.</li>
+        <li><b>Test:</b> Open the link or feature before presenting.</li>
+        <li><b>Use Results:</b> Discuss what the responses mean.</li>
+    </ol>
+</section>
+
+<section class="closing">
+    <p class="tag">KEY TAKEAWAY</p>
+    <h2>Interaction Should Have a Purpose.</h2>
+    <p>Interactive media is not just about clicking buttons or answering questions. It should help users participate, make choices, receive useful feedback, and learn better.</p>
+</section>
+
+</main>
+
+<footer>
+    <p>MEDIA AND INFORMATION LITERACY | WEEK 16</p>
+    <p> Submitted by: 
+        Sebastian Pilapil and Lydwin Gabon
+    </p>
+    <a href="#home">Back to Top ↑</a>
+</footer>
+
+</body>
+</html>
